@@ -25,7 +25,7 @@
     "node": ">=12.18.0"
   },
   "scripts": {
-    "start": "node.js.yml"
+    "start": "npm start"
     "build": "npx rollup --config",
     "doc": "npx jsdoc -c jsdoc.conf.json -r src -d docs",
     "test": "npx cross-env JEST_PUPPETEER_CONFIG=jest-puppeteer.config.cjs jest --no-cache --coverage --testPathIgnorePatterns=\"_data.*\"",
